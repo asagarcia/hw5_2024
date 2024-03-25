@@ -149,16 +149,17 @@ header {
     }
       
     .card {
-        flex-basis: 325px; /* Adjusted width for printing */
-        border: 2px solid #45ADDD; /* Border color and thickness */
-        border-radius: 45px 45px 0 0; /* Top corners rounded */
-        margin: 10px; /* Margin for spacing */
-        position: relative; /* For positioning pseudo-elements */
+        flex-basis: 325px;
+        border: 2px solid #45ADDD;
+        border-radius: 45px 45px 0 0;
+        margin: 10px;
+        position: relative; 
+        flex: 1;
     }
       
     .card ul li:nth-child(2)::after {
-        content: " 👍"; /* Thumbs-up  */
-        display: inline; /* Inline display to keep with text */
+        content: " 👍";
+        display: inline;
     }
 }
       
